@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+  
+.thong-bao-tet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(-170deg,#f5ac27,#ffd84b 80%);
+  padding: 12px;
+}
+.thong-bao-tet .circle{
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 10px;
+  animation: bongMo 2s infinite;
+}
+.thong-bao-tet p {
+  font-weight: 700;
+}
+
+@keyframes bongMo {
+  0% {
+    box-shadow: 0 0 0 0px rgb(233 63 82)
+  }
+  100% {
+    box-shadow: 0 0 50px 5px rgb(233 63 82)
+  }
+}
+
+.header {
+  background-color: #d70018;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  color: rgb(189, 142, 25);
+}
+
+.header .logo-tet {
+  width: 200px;
+  margin-left: 20px;
+}
+.header-right {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.goi-mua-hang {
+  display: flex;
+  align-items: center;
+}
+.myPhone {
+  font-size: 50px;
+}
+.myCard {
+  font-size: 50px;
+}
+.myManhinh {
+  font-size: 50px;
+}
+.danh-sach-san-pham {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.danh-sach-san-pham .card {
+  width: calc(25% - 30px);
+ 
+  /* tren duoi trai phai. trai phai:  */
+  margin: 10px;
+  box-shadow: 0 1px 2px 0 rgba(8, 219, 61, 0.1), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.danh-sach-san-pham .card img {
+  display: block;
+  width: 60%;
+  object-fit: cover;
+}
+#my-slider{
+  height: 500px;
+}
+/* footer */
+.footer{
+  height: 100px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer p{
+  color: white;
+  font-size: 30px;
+}
+.footer-icon i{
+  cursor: pointer;
+    color: white;
+    font-size: 30px;
+    margin: 10px 8px;
+  }
+.footer-icon i:hover{
+  opacity: 0.5;
+}

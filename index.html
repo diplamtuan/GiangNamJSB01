@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <!-- phan header -->
+    <div class="header position-sticky top-0 left-0 z-3">
+      <img
+        class="logo-tet"
+        src="https://cdn2.cellphones.com.vn/x,gif,q100/media/landing-page/tet/2023/Desktop-logo.gif"
+        alt=""
+      />
+
+      <div class="header-right">
+        <div class="goi-mua-hang">
+          <i class="fa-solid fa-phone myPhone"></i>
+          <i class="fa-solid fa-card myCard"></i>
+          <i class="fa-solid fa-manhinh myManhinh"></i>
+          <div>
+            <p>Gọi mua hàng</p>
+            <p>1900 409589</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="my-slider">
+      <div id="carouselExampleIndicators" class="carousel slide h-100">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active">
+            <img
+              src="https://theme.hstatic.net/1000026716/1000440777/14/slideshow_7.jpg?v=34504"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="https://theme.hstatic.net/1000026716/1000440777/14/slideshow_8.jpg?v=34504"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item h-100">
+            <img
+              src="https://theme.hstatic.net/1000026716/1000440777/14/slideshow_9.jpg?v=34504"
+              class="d-block w-100 h-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- phan danh sach san pham -->
+    <h3>Phone</h3>
+    <div class="danh-sach-san-pham" id="Phone">
+      <div class="card">
+        <img
+          src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/w/1/w1q1111c_.jpg"
+          alt=""
+        />
+        <h4>Redmi A1 128gb | Sạc nhanh 50w</h4>
+        <span class="gia-ban">1.950.000&nbsp;₫</span>
+        <span class="gia-goc">2.190.000&nbsp;₫</span>
+      </div>
+     <div class="card">
+        <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/t/_/t_m_18.png"
+         alt=""
+         />
+     <h4>iPhone 14 Pro Max 128GB | Chính hãng VN/A</h4>
+     <span class="gia-ban">28.090.000&nbsp;₫</span>
+     <span class="gia-goc">34.990.000&nbsp;₫</span>
+    </div>
+    <div class="card">
+       <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/s/2/s23-ultra-tim.png" 
+       alt=""
+       />
+       <h4>Samsung Galaxy S23 Ultra 256GB</h4>
+       <span class="gia-ban">26.990.000&nbsp;₫</span>
+       <span class="gia-goc">31.990.000&nbsp;₫</span>
+    </div>
+    <div class="card">
+      <img src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/1/4/14_1_9_2_9.jpg" alt=""
+      />
+      <h4>iPhone 13 128GB | Chính hãng VN/A</h4>
+      <span class="gia-ban">17.990.000&nbsp;₫</span>
+      <span class="gia-goc">24.990.000&nbsp;₫</span>
+    </div>
+      <h>Card</h3>
+      <div class="danh-sach-san-pham" id="Card">
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/8/_/8.5_1.png"
+            width="358"
+            height="358"
+            alt="Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G (N309TGAMING OC-24GD)"
+            class="product__img"
+          />
+          <h5>
+            Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G
+            (N309TGAMING OC-24GD)
+          </h5>
+          <span class="gia-ban">29.900.000</span>
+          <span class="gia-goc">68.900.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/8/_/8.5_1.png"
+            width="358"
+            height="358"
+            alt="Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G (N309TGAMING OC-24GD)"
+            class="product__img"
+          />
+          <h5>
+            Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G
+            (N309TGAMING OC-24GD)
+          </h5>
+          <span class="gia-ban">29.900.000</span>
+          <span class="gia-goc">68.900.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/8/_/8.5_1.png"
+            width="358"
+            height="358"
+            alt="Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G (N309TGAMING OC-24GD)"
+            class="product__img"
+          />
+          <h5>
+            Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G
+            (N309TGAMING OC-24GD)
+          </h5>
+          <span class="gia-ban">29.900.000</span>
+          <span class="gia-goc">68.900.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/8/_/8.5_1.png"
+            width="358"
+            height="358"
+            alt="Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G (N309TGAMING OC-24GD)"
+            class="product__img"
+          />
+          <h5>
+            Card màn hình Gigabyte GeForce RTX 3090 Ti GAMING OC 24G
+            (N309TGAMING OC-24GD)
+          </h5>
+          <span class="gia-ban">29.900.000</span>
+          <span class="gia-goc">68.900.000</span>
+        </div>
+      </div>
+      <h5>Man hinh</h5>
+      <div class="danh-sach-san-pham" id="Man-hinh">
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/7/_/7_18_78.jpg"
+            width="358"
+            height="358"
+            alt="Màn hình Gaming LG Ultragear 24GN650-B 24 inch"
+            class="product__img"
+          />
+          <h5>Màn hình Gaming LG Ultragear 24GN650-B 24 inch</h5>
+          <span class="gia-ban">4.090.000</span>
+          <span class="gia-goc">5.999.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/7/_/7_18_78.jpg"
+            width="358"
+            height="358"
+            alt="Màn hình Gaming LG Ultragear 24GN650-B 24 inch"
+            class="product__img"
+          />
+          <h5>Màn hình Gaming LG Ultragear 24GN650-B 24 inch</h5>
+          <span class="gia-ban">4.090.000</span>
+          <span class="gia-goc">5.999.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/7/_/7_18_78.jpg"
+            width="358"
+            height="358"
+            alt="Màn hình Gaming LG Ultragear 24GN650-B 24 inch"
+            class="product__img"
+          />
+          <h5>Màn hình Gaming LG Ultragear 24GN650-B 24 inch</h5>
+          <span class="gia-ban">4.090.000</span>
+          <span class="gia-goc">5.999.000</span>
+        </div>
+        <div class="card">
+          <img
+            class="w-100"
+            src="https://cdn2.cellphones.com.vn/358x358,webp,q100/media/catalog/product/7/_/7_18_78.jpg"
+            width="358"
+            height="358"
+            alt="Màn hình Gaming LG Ultragear 24GN650-B 24 inch"
+            class="product__img"
+          />
+          <h5>Màn hình Gaming LG Ultragear 24GN650-B 24 inch</h5>
+          <span class="gia-ban">4.090.000</span>
+          <span class="gia-goc">5.999.000</span>
+        </div>
+      </div>
+      <div class="footer">
+        <p>No copyright Giang Nam</p>
+        <div class="footer-icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-tiktok"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
